@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "plan": "Basic",
+    "price": "$0",
+    "features": [
+      "Basic components",
+      "Limited updates",
+      "Community support"
+    ],
+    "info": "Get started with the core library features at no cost."
+  },
+  {
+    "id": 2,
+    "plan": "Premium",
+    "price": "$29/mo",
+    "features": [
+      "All core components",
+      "Regular updates",
+      "Priority support",
+      "Access to premium templates"
+    ],
+    "info": "Perfect for developers building production-ready applications."
+  },
+  {
+    "id": 3,
+    "plan": "Enterprise",
+    "price": "$99/mo",
+    "features": [
+      "All features in Premium",
+      "Dedicated account manager",
+      "Custom integrations",
+      "Early access to new features"
+    ],
+    "info": "Designed for teams and organizations requiring advanced support."
+  }
+]
