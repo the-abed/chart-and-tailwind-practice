@@ -33,3 +33,6 @@ The main objective of this project is to **learn data visualization in React** a
 
 ## Screenshots
 ![React Charts Screenshot](assets/screenshot.png)
+
+<img src="assets/screenshot.png" alt="React Charts Screenshot" width="600"/>
+
