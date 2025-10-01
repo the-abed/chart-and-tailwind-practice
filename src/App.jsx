@@ -8,9 +8,10 @@ import LoadingFallback from './Components/LoadingFallback'
 import Chart from './Components/Chart'
 import axios from 'axios'
 import MarksChart from './Components/MarksChart'
+import ValuePieChart from './Components/ValuePieChart'
 
-const pricingPromise = fetch('pricingOptions.json')
-.then (res => res.json());
+// const pricingPromise = fetch('pricingOptions.json')
+// .then (res => res.json());
 
 const markPromise = axios.get('marksData.json')
 
@@ -23,15 +24,18 @@ function App() {
        <Navbar></Navbar>
      </header>
      <main>
-      <Suspense fallback={<LoadingFallback></LoadingFallback>}>
+      {/* <Suspense fallback={<LoadingFallback></LoadingFallback>}>
         <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
-      </Suspense>
+      </Suspense> */}
 
       <Chart></Chart>
      <Suspense>
       <MarksChart markPromise={markPromise}></MarksChart>
      </Suspense>
+      
+      <ValuePieChart></ValuePieChart>
      </main>
+
      
       
     </>
